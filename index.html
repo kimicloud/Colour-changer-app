@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Color Changer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="color-display">
+            <h1>Fun Color Changer</h1>
+            <div class="color-code" id="colorCode">#3498db</div>
+        </div>
+
+        <div class="controls">
+            <div class="color-buttons">
+                <button class="color-btn" data-color="#3498db">Blue</button>
+                <button class="color-btn" data-color="#e74c3c">Red</button>
+                <button class="color-btn" data-color="#2ecc71">Green</button>
+                <button class="color-btn" data-color="#f39c12">Orange</button>
+                <button class="color-btn" data-color="#9b59b6">Purple</button>
+            </div>
+            
+            <div class="effect-controls">
+                <h3>Special Effects</h3>
+                <button class="effect-btn" id="gradientBtn">Gradient Mode</button>
+                <button class="effect-btn" id="pulseBtn">Pulse Effect</button>
+                <button class="effect-btn" id="rainbowBtn">Rainbow Mode</button>
+                <button class="effect-btn" id="randomBtn">Random Color</button>
+            </div>
+            
+            <div class="custom-color">
+                <h3>Custom Color</h3>
+                <input type="color" id="colorPicker" value="#3498db">
+                <button class="effect-btn" id="applyCustom">Apply</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
